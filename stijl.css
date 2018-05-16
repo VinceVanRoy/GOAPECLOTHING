@@ -1,0 +1,268 @@
+body {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  line-height: 1.4em;
+  font-family: "helvetica";
+  color: RGBA(22, 40, 74, 1.00);
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+
+}
+
+header img {
+  margin: 20px;
+  width: 10%;
+  position: absolute;
+}
+
+main {
+  margin: 15px 15px;
+}
+
+nav {
+  margin: 20px;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+nav a {
+  color: white;
+}
+
+header a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 5px;
+}
+
+a:hover {
+      text-decoration: underline;
+      color: black;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("bg1.jpg");
+
+    /* Set a specific height */
+    min-height: 1000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  color: black;
+  opacity: 0.8;
+}
+
+.cap {
+  font-size: 40px;
+  font-family: helvetica;
+  font-weight: bold;
+  padding: 18px;
+  color: black;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.wit {
+  background-color: white;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.wit p {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("vol.jpg");
+
+    /* Set a specific height */
+    min-height: 900px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("sporttop.jpg");
+
+    /* Set a specific height */
+    min-height: 900px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meld {
+      background-color: black;
+      color: RGBA(182, 198, 230, 1.00);
+      padding: 15px;
+}
+
+.meld h3 {
+      color: white;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 0.9em;
+}
+
+.meld p {
+      margin-bottom: 10px;
+      font-size: 0.9em;
+      color: white;
+}
+
+/* Social Media hier*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: white;
+}
+
+.fa:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-facebook:hover {
+  text-decoration: none;
+  color: #3B5998;
+}
+
+.fa-twitter:hover {
+  text-decoration: none;
+  color: #55ACEE;
+}
+
+.fa-google:hover {
+  text-decoration: none;
+  color: #dd4b39;
+}
+
+.fa-youtube:hover {
+  text-decoration: none;
+  color: #bb0000;
+}
+
+.fa-instagram:hover {
+  text-decoration: none;
+  color: #125688;
+}
+
+/* begin footer */
+
+.copyRight {
+      background-color: RGBA(241, 242, 244, 1.00);
+      color: RGBA(144, 152, 168, 1.00);
+      padding: 15px 15px 40px 15px;
+      position: relative;
+}
+
+.copyRight h3 {
+      margin-bottom: 10px;
+}
+
+.copyRight p {
+      width: 80%;
+      font-size: 0.8em;
+}
+
+.copyRight img {
+      width: 50px;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+}
+
+.copyRight a {
+      color: black;
+}
+
+/* einde footer*/
+
+@supports (grid-area: auto) {
+  @media (min-width: 800px) {
+    body {
+      max-width: none;
+    }
+
+    main {
+      /*display*/
+    }
+
+    header img {
+      width: 5%;
+    }
+
+    .meld{
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    main {
+      /*display*/
+    }
+
+    header img {
+      width: 5%;
+    }
+
+    header a {
+      padding: 10px;
+    }
+
+    footer {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .meld {
+      text-align: center;
+    }
+  }
+}

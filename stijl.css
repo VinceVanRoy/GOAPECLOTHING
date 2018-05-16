@@ -24,7 +24,7 @@ header img {
 }
 
 main {
-  margin: 15px 15px;
+  position: relative;
 }
 
 nav {
@@ -94,6 +94,7 @@ h1 {
   font-family: helvetica;
   font-size: 28px;
   margin-bottom: 20px;
+  margin-top: 15px;
   color: black;
 }
 
@@ -110,7 +111,7 @@ h1 {
     background-image: url("vol.jpg");
 
     /* Set a specific height */
-    min-height: 900px;
+    min-height: 1000px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -119,12 +120,25 @@ h1 {
     background-size: cover;
 }
 
+.wit2 {
+  position: absolute;
+  width: 400px;
+  top: 400px;
+  left: 40px;
+  padding: 25px;
+  background-color: white;
+}
+
+.wit2 p {
+  text-align: center;
+}
+
 .parallax3 {
     /* The image used */
     background-image: url("sporttop.jpg");
 
     /* Set a specific height */
-    min-height: 900px;
+    min-height: 1000px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

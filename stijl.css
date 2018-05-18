@@ -123,14 +123,29 @@ h1 {
 .wit2 {
   position: absolute;
   width: 400px;
-  top: 400px;
-  left: 40px;
+  top: 340px;
+  left: 60px;
   padding: 25px;
   background-color: white;
 }
 
 .wit2 p {
   text-align: center;
+  padding-bottom: 25px;
+}
+
+.wit3 {
+  position: absolute;
+  width: 400px;
+  top: 340px;
+  right: 60px;
+  padding: 25px;
+  background-color: white;
+}
+
+.wit3 p {
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .parallax3 {
